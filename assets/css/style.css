@@ -1,0 +1,87 @@
+* {
+    font-family: sans-serif;
+}
+
+.set {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.card {
+    float: left;
+    margin: 0 5px;
+    width: 20%;
+}
+
+.picture {
+   margin-top: 5px;
+   height: 130px;
+}
+
+.picture > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.card > img {
+    height: 250px;
+}
+
+.options > a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    
+    text-decoration: none;
+}
+
+.buy {
+    background-color: #005bff;
+    color: #ffffff;
+}
+
+.action {
+    background-color: #f2f3f5;
+    color: #000;
+    font-weight: bold;
+}
+
+.discount {
+    position: relative;
+    background-color: #f91155;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px;
+    top: -15px
+}
+
+.product-type {
+    color: #ff8401;
+    font-size: 11px;
+}
+
+.cost {
+    margin-top: 5px;
+}
+
+.price {
+    font-weight: bold;
+    color: #ff8401;
+    vertical-align: middle;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: 11px;
+}
+
+.description {
+    text-align: left;
+    line-height: 23px;
+    height: 45px;
+    overflow: hidden;
+}
