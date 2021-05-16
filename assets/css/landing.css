@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.farm__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3673F;
+}
+
+.farm__button-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.farm__button--color-white {
+    color: #ffffff;
+}
+
+.farm__button-text-unlink {
+    text-decoration: none;
+}
+
+.farm__button-hero {
+    width: 169px;
+    height: 34px;
+    margin-top: 40px;
+}
+
+.farm__button-hero:hover {
+    background-color: #ffffff;
+    color: #E3673F;
+}
+
+.farm__button-product-card {
+    margin-top: 15px;
+    height: 34px;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3673F;
+    height: 45px;
+}
+
+.header__offer-text {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.logo {
+    padding: 15px 0;
+}
+
+.logo__img {
+}
+
+.hero {
+    height: 507px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+}
+
+.hero__promo {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../img/landing/hero.jpg");
+}
+
+.hero__text-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.hero__text {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 48px;
+}
+
+.hero__text-title {
+
+}
+
+.hero__text-present {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    max-width: 1345px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.features__title-mission {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.features__description-mission {
+    font-style: italic;
+}
+
+.features__logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature__logo-img {
+    width: 84px;
+}
+
+.feature__text {
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.products {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.product__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+}
+
+.product__card:not(:last-child) {
+    margin-right: 50px;
+}
+
+.product__img {
+    width: 360px;
+}
+
+.product__title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    line-height: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.product__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.14em;
+}
